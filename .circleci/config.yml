@@ -88,10 +88,34 @@ jobs:
 workflows:
   build-workflow:
     jobs:
-      - build
       - quality
-      - test
-      - deploy-stage
-      - deploy-prod
-      - rollback
+      - test:
+          requires:
+              - quality
+      - build:
+          requires:
+              - quality
+          filters:
+            branches:
+              ignore:
+                - develop
+                - /feature-.*/
+      - deploy-stage:
+          requires:
+              - build
+          filters:
+            branches:
+              only: staging
+      - deploy-prod:
+          requires:
+              - build
+          filters:
+            branches:
+              only: master
+      - rollback:
+          requires:
+              - deploy-prod
+          filters:
+            branches:
+              only: tags
       
