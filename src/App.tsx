@@ -4,7 +4,7 @@ function App() {
     return (
         <div>
             Energia limpa
-            User Aline
+            User Aline git config user.name
         </div>
     );
 }
