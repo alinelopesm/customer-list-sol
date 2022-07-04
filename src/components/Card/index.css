@@ -1,4 +1,4 @@
-.flex-container {
+.flex-container-card {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -7,32 +7,8 @@
     align-content: stretch;
   }
   
-  .flex-items:nth-child(1) {
+  .flex-items-card {
     width: 33%;
+    height: 200px;
     display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-  }
-  
-  .flex-items:nth-child(2) {
-    width: 33%;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-  }
-  
-  .flex-items:nth-child(3) {
-    width: 33%;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
   }

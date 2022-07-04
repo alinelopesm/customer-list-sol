@@ -18,11 +18,11 @@ function List() {
                 {detalhes.map((item, index) => (
                     <tbody key={index}>
                         <tr>
-                            <td>{item.nomeCompleto}{item.cpf}</td>
+                            <td><p>{item.nomeCompleto}</p>{item.cpf}</td>
                             <td>{item.valorFinanciado}</td>
                             <td>{item.valorBruto}</td>
                             <td>{item.valorAquisicao}</td>
-                            <td>{item.parcelas}{item.cet}</td>
+                            <td><p>{item.parcelas}</p>{item.cet}</td>
                             <td>{item.numCcb}</td>
                         </tr>
                     </tbody>

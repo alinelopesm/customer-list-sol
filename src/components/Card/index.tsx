@@ -5,8 +5,8 @@ function Card() {
     return (
         <>
             <h3>Total Formalizações</h3>
-            <div className="flex-container">
-                <div className="flex-items">
+            <div className="flex-container-card">
+                <div className="flex-items-card">
                     <p>valor Financiado</p>
                     <div>
                         <span>PF R$ </span>
@@ -20,7 +20,7 @@ function Card() {
                         <h3>Total R$ {cessao.total.financiado}</h3>
                     </div>
                 </div>
-                <div className="flex-items">
+                <div className="flex-items-card">
                     <p>valor Bruto</p>
                     <div>
                         <span>PF R$ </span>
@@ -34,7 +34,7 @@ function Card() {
                         <h3>Total R$ {cessao.total.bruto}</h3>
                     </div>
                 </div>
-                <div className="flex-items">
+                <div className="flex-items-card">
                     <p>valor Aquisição</p>
                     <div>
                         <span>PF R$ </span>
