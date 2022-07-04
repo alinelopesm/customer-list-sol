@@ -1,0 +1,107 @@
+
+{
+    "cessao":{
+        "criadoEm":"2021-04-06T19:12:30.580005Z",
+        "id":77,
+        "pf":{
+            "aquisicao":"881649.09",
+            "bruto":"878136.54",
+            "financiado":"785676.00"
+        },
+        "pj":{
+            "aquisicao":"350574.70",
+            "bruto":"349177.99",
+            "financiado":"323466.00"
+        },
+        "total":{
+            "aquisicao":"1232223.79",
+            "bruto":"1227314.53",
+            "financiado":"1109142.00"
+        }
+    },
+    "detalhes":[
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"222.851.165-00",
+            "id":114,
+            "nomeCompleto":"Solfacil Energia Solar Ltda",
+            "numCcb":"A0677332-000",
+            "parcelas":60,
+            "tipo":"PF",
+            "valorAquisicao":"448208.63",
+            "valorBruto":"446422.94",
+            "valorFinanciado":"400000.00"
+        },
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"817.248.032-63",
+            "id":116,
+            "nomeCompleto":"sdf asdasdf a",
+            "numCcb":"A0677335-000",
+            "parcelas":72,
+            "tipo":"PF",
+            "valorAquisicao":"260750.38",
+            "valorBruto":"259711.53",
+            "valorFinanciado":"232322.00"
+        },
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"946.541.511-17",
+            "id":115,"nomeCompleto":"sda asd asda",
+            "numCcb":"A0677333-000",
+            "parcelas":60,
+            "tipo":"PF",
+            "valorAquisicao":"24549.51",
+            "valorBruto":"24451.70",
+            "valorFinanciado":"21909.00"
+        },
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"703.674.641-60",
+            "id":112,
+            "nomeCompleto":"Julianny test",
+            "numCcb":"A0677329-000",
+            "parcelas":120,
+            "tipo":"PF",
+            "valorAquisicao":"26056.72",
+            "valorBruto":"25952.91",
+            "valorFinanciado":"23023.00"
+        },
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"483.851.312-72",
+            "id":110,
+            "nomeCompleto":"Julianny test",
+            "numCcb":"A0677326-000",
+            "parcelas":120,
+            "tipo":"PF",
+            "valorAquisicao":"39461.41",
+            "valorBruto":"39304.19",
+            "valorFinanciado":"34867.00"
+        },
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"055.763.637-01",
+            "id":109,
+            "nomeCompleto":"Julianny test",
+            "numCcb":"A0677319-000",
+            "parcelas":120,
+            "tipo":"PF",
+            "valorAquisicao":"20371.85",
+            "valorBruto":"20290.69",
+            "valorFinanciado":"18000.00"
+        },
+        {
+            "cet":"POS_FIXADO",
+            "cpf":"880.191.208-07",
+            "id":113,
+            "nomeCompleto":"Edinamar Test",
+            "numCcb":"A0677330-000",
+            "parcelas":60,
+            "tipo":"PF",
+            "valorAquisicao":"62250.58",
+            "valorBruto":"62002.57",
+            "valorFinanciado":"55555.00"
+        }
+    ]
+}

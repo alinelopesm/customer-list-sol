@@ -2,24 +2,22 @@ import React, { useEffect, useState } from 'react';
 import api from './services/api';
 
 function App() {
-    const [ user, setUser ] = useState({ name: '', login: '' });
+    const [ fundingData, setFundingData] = useState();
     
     useEffect(() => {
         api
-            .get('/users/romulo27')
+            .get('')
             .then((response) => {
-                console.log('Quem sou', response.data);
-                setUser(response.data);
+                setFundingData(response.data);
             })
             .catch((err) => {
                 console.error('ops! ocorreu um erro' + err);
             });
-    }, [user]);
+    }, [fundingData]);
       
     return (
         <div>
             Energia limpa
-            User: {user ? user.name : ''}
         </div>
     );
 }
