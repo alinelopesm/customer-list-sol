@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Header from './components/Header/index';
 import List from './components/List/index';
 import api from './services/api';
 
@@ -18,6 +19,7 @@ function App() {
       
     return (
         <>
+            <Header />
             <List />
         </>
     );
