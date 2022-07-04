@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import Card from './components/Card';
-import Header from './components/Header';
-import List from './components/List';
-import api from './services/api';
+import { useEffect, useState } from 'react';
+import Card from '../components/Card';
+import Header from '../components/Header';
+import List from '../components/List';
+import api from '../services/api';
 
 function App() {
     const [ fundingData, setFundingData] = useState();
