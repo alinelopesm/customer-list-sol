@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Card from '../../components/Card';
+import Header from '../../components/Header';
 import List from '../../components/List';
 import api from '../../services/api';
 
@@ -19,7 +20,7 @@ export default function Financing(){
 
     return (
         <>
-        alooooo
+            <Header />
             <Card />
             <List />
         </>
