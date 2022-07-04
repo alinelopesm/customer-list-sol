@@ -1,0 +1,19 @@
+export const cessao = {
+    criadoEm:'2021-04-06T19:12:30.580005Z',
+    id:77,
+    pf:{
+        aquisicao:'881649.09',
+        bruto:'878136.54',
+        financiado:'785676.00'
+    },
+    pj:{
+        aquisicao:'350574.70',
+        bruto:'349177.99',
+        financiado:'323466.00'
+    },
+    total:{
+        aquisicao:'1232223.79',
+        bruto:'1227314.53',
+        financiado:'1109142.00'
+    }
+};
