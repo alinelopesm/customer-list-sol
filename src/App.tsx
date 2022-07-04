@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header/index';
-import List from './components/List/index';
+import Card from './components/Card';
+import Header from './components/Header';
+import List from './components/List';
 import api from './services/api';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     return (
         <>
             <Header />
+            <Card />
             <List />
         </>
     );
