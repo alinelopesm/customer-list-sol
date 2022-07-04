@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import List from './components/List/index';
 import api from './services/api';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     useEffect(() => {
         api
             .get('')
-            .then((response) => {
+            .then((response) => {        
                 setFundingData(response.data);
             })
             .catch((err) => {
@@ -16,9 +17,9 @@ function App() {
     }, [fundingData]);
       
     return (
-        <div>
-            Energia limpa
-        </div>
+        <>
+            <List />
+        </>
     );
 }
 
