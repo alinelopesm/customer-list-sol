@@ -1,6 +1,10 @@
-import { detalhes } from '../../__mocks__/mock-list-funding';
+import { FormalizationContext } from '../../common/context/Formalization';
+import { Key, useContext } from 'react';
 
 function List() {
+    /* utiliza o array list, apartir do contexto */
+    const { fundingList } = useContext(FormalizationContext);
+
     return (
         <div>
             <h2> Lista de Financiamentos </h2>
@@ -15,7 +19,16 @@ function List() {
                         <th>N.˚CCB</th>
                     </tr>
                 </thead>
-                {detalhes.map((item, index) => (
+                {fundingList.map((item: { 
+                    nomeCompleto: string,
+                    cpf: string,
+                    valorFinanciado: string,
+                    valorBruto: string,
+                    valorAquisicao: string,
+                    parcelas: number,
+                    cet: string,
+                    numCcb: string,
+                }, index: Key | null | undefined) => (
                     <tbody key={index}>
                         <tr>
                             <td><p>{item.nomeCompleto}</p>{item.cpf}</td>
